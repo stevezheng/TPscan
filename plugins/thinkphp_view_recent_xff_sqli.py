@@ -26,7 +26,7 @@ def thinkphp_view_recent_xff_sqli_verify(url):
             pocdict['isvul'] = True
             pocdict['vulnurl'] = vurl
             pocdict['proof'] = '56540676a129760a'
-            pocdict['response'] = req.text
+            # pocdict['response'] = req.text
             print(pocdict)
 
     except:

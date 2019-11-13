@@ -29,7 +29,7 @@ def thinkphp_index_showid_rce_verify(url):
             pocdict['isvul'] = True
             pocdict['vulnurl'] = vurl
             pocdict['proof'] = '56540676a129760a3 found'
-            pocdict['response'] = req2.text
+            # pocdict['response'] = req2.text
             print(pocdict)
 
     except:

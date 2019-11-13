@@ -36,7 +36,7 @@ def thinkphp_multi_sql_leak_verify(url):
                 pocdict['isvul'] = True
                 pocdict['vulnurl'] = vurl
                 pocdict['proof'] = 'SQL syntax found'
-                pocdict['response'] = req.text
+                # pocdict['response'] = req.text
                 print(pocdict)
                 break
 

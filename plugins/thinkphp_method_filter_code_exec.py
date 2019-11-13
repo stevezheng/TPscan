@@ -31,7 +31,7 @@ def thinkphp_method_filter_code_exec_verify(url):
             pocdict['vulnurl'] = vurl
             pocdict['payload'] = payload
             pocdict['proof'] = '4e5e5d7364f443e28fbf0d3ae744a59a'
-            pocdict['response'] = req.text
+            # pocdict['response'] = req.text
             print(pocdict)
 
     except:
